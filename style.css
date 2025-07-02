@@ -35,3 +35,19 @@ body{
     cursor: pointer;
     background-color: #e6f7ff;
 }
+
+button:disabled{
+    background-color: #999;
+    color: white;
+    cursor: not-allowed;
+}
+
+/*checkbox marcado*/
+input[type="chechbox"]:checked {
+    outline: 2px solid green;
+}
+
+/*checkbox desactivado*/
+input[type="checkbox"]:disabled + label {
+    color: #888;
+}
