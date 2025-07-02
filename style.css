@@ -51,3 +51,18 @@ input[type="chechbox"]:checked {
 input[type="checkbox"]:disabled + label {
     color: #888;
 }
+
+/* input enfocado */
+input:focus{
+    border: 2px solid blue;
+    outline: none;
+}
+
+/* input en formulario */
+.formulario input:first-child{
+    background-color: #eef;
+}
+
+.formulario input:last-child{
+    background-color: #efe;
+}
