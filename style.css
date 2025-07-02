@@ -1,0 +1,10 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.producto{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
